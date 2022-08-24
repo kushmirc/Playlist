@@ -13,7 +13,9 @@ public class Playlist {
         musicPlaylist.add("Dear Prudence");
         musicPlaylist.add("Wings For Marie");
         musicPlaylist.add("Iin Desu Ka?");
-
+        //display the playlist
         System.out.println(musicPlaylist);
+        //display the number of songs in the playlist
+        System.out.println(musicPlaylist.size());
     }
 }
