@@ -17,5 +17,11 @@ public class Playlist {
         System.out.println(musicPlaylist);
         //display the number of songs in the playlist
         System.out.println(musicPlaylist.size());
+        //remove a song by index, and display the new size
+        musicPlaylist.remove(1);
+        System.out.println(musicPlaylist.size());
+        //remove a song by string, and display the new size
+        musicPlaylist.remove("Wings For Marie");
+        System.out.println(musicPlaylist.size());
     }
 }
