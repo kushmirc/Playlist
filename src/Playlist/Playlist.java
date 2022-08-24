@@ -23,5 +23,8 @@ public class Playlist {
         //remove a song by string, and display the new size
         musicPlaylist.remove("Wings For Marie");
         System.out.println(musicPlaylist.size());
+        //declare variables to accomplish a song swap
+        int indexA = musicPlaylist.indexOf("Iin Desu Ka?");
+        int indexB = musicPlaylist.indexOf("The New Year");
     }
 }
