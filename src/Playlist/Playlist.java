@@ -23,8 +23,16 @@ public class Playlist {
         //remove a song by string, and display the new size
         musicPlaylist.remove("Wings For Marie");
         System.out.println(musicPlaylist.size());
+        System.out.println(musicPlaylist);
         //declare variables to accomplish a song swap
-        int indexA = musicPlaylist.indexOf("Iin Desu Ka?");
-        int indexB = musicPlaylist.indexOf("The New Year");
+        int indexA = musicPlaylist.indexOf("The New Year");
+        int indexB = musicPlaylist.indexOf("Iin Desu Ka?");
+        //overwrite the first song index with the title of the song to swap
+        musicPlaylist.set(indexA,"Iin Desu Ka?");
+        System.out.println(musicPlaylist);
+        //overwrite the second song by setting declaring a new string to reference it
+        String tempA = "The New Year";
+        musicPlaylist.set(indexB, tempA);
+        System.out.println(musicPlaylist);
     }
 }
